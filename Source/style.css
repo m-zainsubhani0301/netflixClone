@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  font-family: "Poppine", sans-serif;
+  background-color: black;
+}
+.main {
+  background-image: url(./images/background.jpg);
+  height: 90vh;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: max(1000px, 100vw);
+}
+.main .box {
+  height: 90vh;
+  width: 100%;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  background-color: black;
+}
+
+.main nav {
+  width: 60vw;
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 93px;
+}
+
+.main nav img {
+  width: 114px;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.line1 {
+  font-size: 29px;
+  font-weight: 800;
+  margin-bottom: 6px;
+  text-align: center;
+}
+
+.line2 {
+  margin-bottom: 15px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.hero {
+  font-family: "Martel sans", sans-serif;
+  color: white;
+  position: relative;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 23px;
+}
+
+.line {
+  background-color: rgb(50, 49, 49);
+  height: 7px;
+}
+
+.btn {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.btn-red-sm {
+  background-color: red;
+  color: white;
+  padding: 7px 15px 8px 14px;
+}
+.btn-red {
+  background-color: red;
+  color: white;
+  padding: 7px 15px 8px 14px;
+}
+
+.main input {
+  padding: 7px 15px 8px 14px;
+  background-color: rgba(23, 23, 23, 0.2);
+  font-size: 18px;
+  margin-top: 25px;
+  color: white;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  width: 70vw;
+  height: 60vh;
+  margin: auto;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.first-img {
+  position: relative;
+}
+
+.first-img img {
+  width: 40vw;
+  height: 56vh;
+  position: relative;
+  z-index: 10;
+}
+
+.first-img video {
+  position: absolute;
+  height: 60%;
+  top: 50px;
+  bottom: 40px;
+  width: 40vw;
+  right: 0;
+}
+
+.sec-line1 {
+  font-size: 30px;
+  display: flex;
+  margin-bottom: 30px;
+  font-weight: 800;
+}
+
+.faq {
+  background-color: black;
+  color: white;
+  padding: 34px;
+  font-weight: 500;
+}
+
+.faq h2 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.faq-box:hover {
+  background-color: rgb(89, 83, 83);
+}
+
+.faq-box {
+  margin: 34px auto;
+  display: flex;
+  font-size: 15px;
+  background-color: rgb(64, 61, 61);
+  padding: 24px;
+  justify-content: space-around;
+  max-width: 40vw;
+}
+
+footer {
+  color: white;
+  max-width: 60vw;
+  margin: auto;
+  padding: 34px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+}
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
